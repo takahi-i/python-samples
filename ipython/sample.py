@@ -7,6 +7,5 @@ def foo():
         idx = int(i/2)
         c[i] += i + a[-idx] + b[idx]
         c[-i] += i + a[idx] + b[-idx]
-    raise Exception
     d = len([i*2**2+1 for i in range(-80, 130, 10)])
     return c * d
