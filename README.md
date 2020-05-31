@@ -5,4 +5,4 @@ Samples of understanding Python environment
 * pdb
 * profiler
 * sphinx
-
+* poetry
